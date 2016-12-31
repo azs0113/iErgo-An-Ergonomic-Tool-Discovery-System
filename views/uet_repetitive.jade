@@ -1,0 +1,26 @@
+html
+  head
+    title=title
+    link(href='//maxcdn.bootstrapcdn.com/bootswatch/3.3.5/darkly/bootstrap.min.css', rel='stylesheet')
+    meta(name="viewport",content="width=device-width,height=device-height, initial-scale=1.0")
+  body
+    div.navbar.navbar-default
+      div(style='text-align:center; color: #FFFFFF')
+        h1 iErgo
+    div(style='text-align:center').container
+      div.jumbotron
+        h2 Is there repetitive action? 
+            p
+              br
+              div
+                a(href="/uet_repetitive_yes")
+                  .btn.btn-primary(style='width:100px; height:fluid; font-size:22; white-space:normal; word-wrap: break-word; word-break: normal') Yes
+                | &nbsp
+                | &nbsp
+                | &nbsp
+                | &nbsp
+                a(href="/risk_from_force")
+                  .btn.btn-primary(style='width:100px; height:fluid; font-size:22; white-space:normal; word-wrap: break-word; word-break: normal') No
+              br
+            p(style='text-align:left')
+              a.btn.btn-danger(href="/mmh_or_uet") Back

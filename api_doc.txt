@@ -1,0 +1,37 @@
+apiKey.id = 154VNI5MZ8ID5EFIPK3WYE58O
+apiKey.secret = cp86t7s8JOZDq9kYnBTAL1pOhnuIAFc3HCeOIfU+o+s
+application_href = https://api.stormpath.com/v1/applications/2TuLKIeDyND6EpS33iwb5F
+
+You'll need to set these as system variables.
+
+For Windows:
+
+set STORMPATH_CLIENT_APIKEY_ID=154VNI5MZ8ID5EFIPK3WYE58O
+set STORMPATH_CLIENT_APIKEY_SECRET=cp86t7s8JOZDq9kYnBTAL1pOhnuIAFc3HCeOIfU+o+s
+set STORMPATH_APPLICATION_HREF=https://api.stormpath.com/v1/applications/2TuLKIeDyND6EpS33iwb5F
+
+For Linux:
+
+export STORMPATH_CLIENT_APIKEY_ID=154VNI5MZ8ID5EFIPK3WYE58O
+export STORMPATH_CLIENT_APIKEY_SECRET=cp86t7s8JOZDq9kYnBTAL1pOhnuIAFc3HCeOIfU+o+s
+export STORMPATH_APPLICATION_HREF=https://api.stormpath.com/v1/applications/2TuLKIeDyND6EpS33iwb5F
+
+--------------------------------------
+
+Stormpath Account Credentials:
+
+Tenant: amazing-bird
+
+Username: iErgo
+
+Password: *LabAdmin*1
+
+-------------------------------------
+
+Gmail account Credentials:
+
+Username: iErgo.auburn
+
+Password: *LabAdmin*
+
+

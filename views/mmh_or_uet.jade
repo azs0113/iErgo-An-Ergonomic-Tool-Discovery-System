@@ -1,0 +1,26 @@
+html
+  head
+    meta(name="viewport",content="width=device-width,height=device-height, initial-scale=1.0")
+    title=title
+    link(href='//maxcdn.bootstrapcdn.com/bootswatch/3.3.5/darkly/bootstrap.min.css', rel='stylesheet')
+  body
+    div.navbar.navbar-default
+      div(style='text-align:center; color: #FFFFFF')
+        h1 iErgo
+    div(style='text-align:center').container
+      div.jumbotron
+        h2 Is it MMH or UET? 
+            p
+              br
+              div
+                a(href="/mmh_repetitive", data-toggle='tooltip', title='Manual Materials Handling')
+                  .btn.btn-primary(style='width:100px; height:fluid; font-size:22; white-space:normal; word-wrap: break-word; word-break: normal') MMH
+                | &nbsp
+                | &nbsp
+                | &nbsp
+                | &nbsp
+                a(href="/uet_repetitive", data-toggle='tooltip', title='Non-mmh activity')
+                  .btn.btn-primary(style='width:100px; height:fluid; font-size:22; white-space:normal; word-wrap: break-word; word-break: normal') UET
+              br
+            p(style='text-align:left')
+              a.btn.btn-danger(href="/assessed_risk") Back
