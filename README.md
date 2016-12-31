@@ -1,4 +1,4 @@
-# README #
+iErgo is an application that will assist the ergonomic specialists in selecting which tool to use for risk assessment based on a given scenario. It was created so that users with a range of experience in ergonomic analysis would be able to employ it to analyze task in a workplace. It is comprised of 11 ergonomics assessment tools that can be used to analyze jobs for a variety of ergonomic risk factors. 
 
 This is a repository for iErgo version 1.0
 
